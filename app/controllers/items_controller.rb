@@ -2,6 +2,8 @@ class ItemsController < ApplicationController
   # GET /items
   # GET /items.json
 
+  def jax
+  end
 
   def index
   @items = Item.all

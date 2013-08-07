@@ -5,7 +5,7 @@ Taylor::Application.routes.draw do
   get 'search' => 'venues#search'
   match '/venues' => 'venues#index'
   resources :categories
-
+  get '/jax' => 'items#jax'
 
 
   resources :tags
