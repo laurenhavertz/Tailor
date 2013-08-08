@@ -7,13 +7,14 @@ class HomeController < ApplicationController
 
     @venues.each do |venue|
       @venue_names << venue.name
+    end
   end
 
   def team
 
   end
 
-  dßef contact
+  def contact
 
   end
 
@@ -22,4 +23,5 @@ class HomeController < ApplicationController
     flash[:success] = "Thanks for your comment. We'll contact you shortly."
     render :contact
   end
+
 end

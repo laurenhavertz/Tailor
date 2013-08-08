@@ -4,7 +4,7 @@ Taylor::Application.routes.draw do
   get '/team' => 'home#team'
 
   get '/contact' => 'home#contact'
-  post '/contact/submit' => 'home#send_contact_emailß'
+  post '/contact/submit' => 'home#send_contact_email'
 
   post 'search' => 'venues#search'
   match '/venues' => 'venues#index'
